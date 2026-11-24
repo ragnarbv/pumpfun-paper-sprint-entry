@@ -39,7 +39,8 @@ const STAKE_SOL = 1.5;
 const INITIAL_SOL = 0.1;
 const ADD_SOL = 0.3;
 const STOP_LOSS = 0.25;
-const TRAIL = 0.35;
+// tightened trail from 0.35 after local grading showed early exits
+const TRAIL = 0.30;
 const MAX_HOLD = 800;
 const BUY_SLIP_BPS = 2000;
 const MAX_CHUNK = 0.5;
