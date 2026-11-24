@@ -44,7 +44,8 @@ const TRAIL = 0.30;
 const MAX_HOLD = 800;
 const BUY_SLIP_BPS = 2000;
 const MAX_CHUNK = 0.5;
-const COOLDOWN = 200;
+// cooldown reduced from 200 to 150 slots after observing re-entry patterns
+const COOLDOWN = 150;
 
 const tapes = new Map<string, Tape>();
 const positions = new Map<string, Position>();
